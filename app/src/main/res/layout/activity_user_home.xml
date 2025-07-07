@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg_user_home_gradient">
+
+    <!-- Logout icon -->
+    <ImageButton
+        android:id="@+id/btnLogout"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="Logout"
+        android:src="@drawable/ic_logout"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <!-- Welcome text -->
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Chamberly"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/btnChat"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="Chat with Listener"
+        android:background="@drawable/button_chat_blue"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/tvWelcome"
+        android:layout_marginTop="24dp" />
+
+
+
+
+</RelativeLayout>

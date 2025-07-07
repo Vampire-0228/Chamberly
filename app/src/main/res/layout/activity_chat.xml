@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Chat History -->
+    <TextView
+        android:id="@+id/tvChatHistory"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#EEEEEE"
+        android:padding="12dp"
+        android:scrollbars="vertical"
+        android:text="Chat starts here..."
+        android:textColor="#000000"
+        android:textSize="16sp" />
+
+    <!-- Input Row -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <EditText
+            android:id="@+id/etMessage"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_input_bubble"
+            android:hint="Type a message"
+            android:paddingHorizontal="16dp"
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:maxLines="4"
+            android:gravity="center_vertical" />
+
+        <ImageButton
+            android:id="@+id/btnSend"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/bg_send_circle"
+            android:contentDescription="Send"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_send"
+            app:tint="#FFFFFF"
+            tools:ignore="TouchTargetSizeCheck" />
+    </LinearLayout>
+
+    <!-- End Session Button -->
+    <Button
+        android:id="@+id/btnEndSession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="End Session"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#FF4444"
+        android:textColor="#FFFFFF"
+        android:textAllCaps="false" />
+</LinearLayout>

@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "553363956686",
+    "project_id": "chamberly-dc35b",
+    "storage_bucket": "chamberly-dc35b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553363956686:android:64ab4aaefc2cb93bf3c19f",
+        "android_client_info": {
+          "package_name": "com.example.chamberconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnhRLdKDTYBSR_QzzAkw1wZzkAbYcgjdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553363956686:android:738c573232a5e7acf3c19f",
+        "android_client_info": {
+          "package_name": "com.example.chamberly"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnhRLdKDTYBSR_QzzAkw1wZzkAbYcgjdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553363956686:android:27a938686cfbd65cf3c19f",
+        "android_client_info": {
+          "package_name": "com.example.listnerconnect"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnhRLdKDTYBSR_QzzAkw1wZzkAbYcgjdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
