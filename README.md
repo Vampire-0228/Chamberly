@@ -1,3 +1,13 @@
-# Chamberly
+## Chamberly
 
 Chamberly is an innovative Android mobile application designed to foster meaningful connections between users and professional listeners. The app provides a secure and confidential platform for private 1-on-1 chat sessions, enabling individuals to seek emotional support, share personal experiences, or engage in therapeutic conversations. Key features include real-time messaging with end-to-end encryption, customizable user profiles, session scheduling, and a user-friendly interface that prioritizes privacy and mental well-being. Built with a focus on accessibility and ease of use, Chamberly aims to make mental health support more approachable and convenient for everyone.
+
+## Download
+
+<p align="left">
+  <a href="https://github.com/<USER>/<REPO>/releases/latest">
+    <img src="https://img.shields.io/badge/GitHub_Release-v1.0.0-black?style=for-the-badge&logo=github">
+  </a>
+</p>
+
+
